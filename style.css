@@ -1,0 +1,10 @@
+table{
+    /* border: 3px solid black; */
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 0.5rem;
+    border: 5px solid black;
+}
