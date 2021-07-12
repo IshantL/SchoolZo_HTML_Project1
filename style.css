@@ -1,0 +1,33 @@
+
+
+.textArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .menuBar{
+        margin-left: 10%;
+        width: 80%;
+        height: 3rem;
+        display: flex;
+        background-color: rgb(194, 197, 206);
+        color: rgb(0, 0, 0);
+        align-items: center;
+        justify-content:space-evenly;
+        font-weight: 600;
+        
+        
+    }
+    /* .menuBar :hover {
+    
+        background-color: white;
+
+    } */
+.textEditor{
+    min-width: 80%;
+    height: 90vh;
+    border: 1px solid black;
+    
+}
+
+
