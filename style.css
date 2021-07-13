@@ -1,32 +1,42 @@
+*
+{
+    font-size: clamp(12px, 2vw, 4rem);
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
 
+}
+
+body{
+    background:rgb(192, 236, 250) ;
+}
 
 .textArea{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+    
     .menuBar{
-        margin-left: 10%;
         width: 80%;
         height: 3rem;
+        margin: auto;
         display: flex;
-        background-color: rgb(194, 197, 206);
-        color: rgb(0, 0, 0);
+        background-color: rgb(40, 6, 104);
+        color: rgb(243, 241, 241);
         align-items: center;
         justify-content:space-evenly;
         font-weight: 600;
-        
-        
-    }
-    /* .menuBar :hover {
-    
-        background-color: white;
-
-    } */
+        cursor:default;
+        }
+    .menuBar :hover {
+        opacity: 50%;
+    } 
 .textEditor{
+    margin-top: 3px;
     min-width: 80%;
     height: 90vh;
-    border: 1px solid black;
+    background: #ffff;
     
 }
 
